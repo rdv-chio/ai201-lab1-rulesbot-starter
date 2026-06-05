@@ -116,11 +116,11 @@ handle these cases better, at the cost of more implementation complexity.
 **Actual chunk count produced across all 8 rule books:**
 
 ```
-[your answer here]
+149 chunks
 ```
 
 **One thing that surprised you or didn't match your expectations:**
 
 ```
-[your answer here]
+I was surprised that 8 full games only produced 149 chunks total (averaging less than 20 chunks per game). This implies the source documents in the `/docs` folder are highly condensed rules summaries rather than the full, multi-page official rulebooks. Because the text is so dense, the 300-character chunk size is perfect—if these were 20-page manuals, 300 characters would have generated thousands of chunks and potentially slowed down retrieval!
 ```
